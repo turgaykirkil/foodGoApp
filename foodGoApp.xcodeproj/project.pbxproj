@@ -7,25 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D13968C42AD3F70600491B36 /* Yemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13968C32AD3F70600491B36 /* Yemekler.swift */; };
+		D1ADB91B2AD40FD400B85435 /* YemekHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADB91A2AD40FD400B85435 /* YemekHucre.swift */; };
+		D1ADB91D2AD6990700B85435 /* SepetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADB91C2AD6990700B85435 /* SepetScreen.swift */; };
+		D1ADB9262AD6A74300B85435 /* Sepetim.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADB9252AD6A74300B85435 /* Sepetim.swift */; };
+		D1ADB9282AD7D71900B85435 /* ProfilScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADB9272AD7D71900B85435 /* ProfilScreen.swift */; };
+		D1ADB92A2AD7D72D00B85435 /* AdresScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADB9292AD7D72D00B85435 /* AdresScreen.swift */; };
+		D1ADB92C2AD7D7EB00B85435 /* SepetHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADB92B2AD7D7EB00B85435 /* SepetHucre.swift */; };
+		D1ADB92E2AD7E5F800B85435 /* OdemeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADB92D2AD7E5F800B85435 /* OdemeScreen.swift */; };
+		D1ADB9312AD7EA9400B85435 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D1ADB9302AD7EA9400B85435 /* RxSwift */; };
+		D1ADB9342AD7EAAA00B85435 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D1ADB9332AD7EAAA00B85435 /* Kingfisher */; };
+		D1ADB9372AD7EAF400B85435 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D1ADB9362AD7EAF400B85435 /* Alamofire */; };
+		D1ADB93A2AD7FC2D00B85435 /* YemekDaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADB9392AD7FC2D00B85435 /* YemekDaoRepository.swift */; };
+		D1ADB93D2AD7FC7600B85435 /* AnasayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADB93C2AD7FC7600B85435 /* AnasayfaViewModel.swift */; };
+		D1ADB93F2AD7FC8700B85435 /* DetayScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADB93E2AD7FC8700B85435 /* DetayScreenViewModel.swift */; };
+		D1ADB9412AD7FC9C00B85435 /* SepetScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADB9402AD7FC9C00B85435 /* SepetScreenViewModel.swift */; };
 		D1C82A592AD198180074714F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C82A582AD198180074714F /* AppDelegate.swift */; };
 		D1C82A5B2AD198180074714F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C82A5A2AD198180074714F /* SceneDelegate.swift */; };
-		D1C82A5D2AD198180074714F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C82A5C2AD198180074714F /* ViewController.swift */; };
+		D1C82A5D2AD198180074714F /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C82A5C2AD198180074714F /* Anasayfa.swift */; };
 		D1C82A602AD198180074714F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C82A5E2AD198180074714F /* Main.storyboard */; };
 		D1C82A632AD198180074714F /* foodGoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1C82A612AD198180074714F /* foodGoApp.xcdatamodeld */; };
 		D1C82A652AD1981A0074714F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C82A642AD1981A0074714F /* Assets.xcassets */; };
 		D1C82A682AD1981A0074714F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C82A662AD1981A0074714F /* LaunchScreen.storyboard */; };
+		D1C82A702AD1990E0074714F /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C82A6F2AD1990E0074714F /* LoginScreen.swift */; };
+		D1C82A732AD199C70074714F /* DelaGothicOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1C82A722AD199C70074714F /* DelaGothicOne-Regular.ttf */; };
+		D1C82A7E2AD2ADAB0074714F /* DetayScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C82A7D2AD2ADAB0074714F /* DetayScreen.swift */; };
+		D1EB5FB62ADC7D73004CB83E /* TakipScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EB5FB52ADC7D73004CB83E /* TakipScreen.swift */; };
+		D1EB5FB82ADD5DBF004CB83E /* CRUDCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EB5FB72ADD5DBF004CB83E /* CRUDCevap.swift */; };
+		D1EB5FBA2ADD6F60004CB83E /* YemeklerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EB5FB92ADD6F60004CB83E /* YemeklerCevap.swift */; };
+		D1EB5FBC2ADE5C90004CB83E /* SepetimCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EB5FBB2ADE5C90004CB83E /* SepetimCevap.swift */; };
+		D1EB5FC22ADFCB9A004CB83E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EB5FC02ADFCB94004CB83E /* CoreLocation.framework */; };
+		D1EB5FC72ADFCDB7004CB83E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EB5FC52ADFCD75004CB83E /* MapKit.framework */; };
+		D1EB5FCA2AE49F86004CB83E /* OdemeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EB5FC92AE49F86004CB83E /* OdemeScreenViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D13968C32AD3F70600491B36 /* Yemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yemekler.swift; sourceTree = "<group>"; };
+		D1ADB91A2AD40FD400B85435 /* YemekHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekHucre.swift; sourceTree = "<group>"; };
+		D1ADB91C2AD6990700B85435 /* SepetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetScreen.swift; sourceTree = "<group>"; };
+		D1ADB9252AD6A74300B85435 /* Sepetim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepetim.swift; sourceTree = "<group>"; };
+		D1ADB9272AD7D71900B85435 /* ProfilScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilScreen.swift; sourceTree = "<group>"; };
+		D1ADB9292AD7D72D00B85435 /* AdresScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdresScreen.swift; sourceTree = "<group>"; };
+		D1ADB92B2AD7D7EB00B85435 /* SepetHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetHucre.swift; sourceTree = "<group>"; };
+		D1ADB92D2AD7E5F800B85435 /* OdemeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdemeScreen.swift; sourceTree = "<group>"; };
+		D1ADB9392AD7FC2D00B85435 /* YemekDaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDaoRepository.swift; sourceTree = "<group>"; };
+		D1ADB93C2AD7FC7600B85435 /* AnasayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewModel.swift; sourceTree = "<group>"; };
+		D1ADB93E2AD7FC8700B85435 /* DetayScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayScreenViewModel.swift; sourceTree = "<group>"; };
+		D1ADB9402AD7FC9C00B85435 /* SepetScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetScreenViewModel.swift; sourceTree = "<group>"; };
 		D1C82A552AD198180074714F /* foodGoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodGoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C82A582AD198180074714F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1C82A5A2AD198180074714F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1C82A5C2AD198180074714F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1C82A5C2AD198180074714F /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
 		D1C82A5F2AD198180074714F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1C82A622AD198180074714F /* foodGoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = foodGoApp.xcdatamodel; sourceTree = "<group>"; };
 		D1C82A642AD1981A0074714F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1C82A672AD1981A0074714F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1C82A692AD1981A0074714F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C82A6F2AD1990E0074714F /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		D1C82A722AD199C70074714F /* DelaGothicOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DelaGothicOne-Regular.ttf"; sourceTree = "<group>"; };
+		D1C82A7D2AD2ADAB0074714F /* DetayScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayScreen.swift; sourceTree = "<group>"; };
+		D1EB5FB52ADC7D73004CB83E /* TakipScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakipScreen.swift; sourceTree = "<group>"; };
+		D1EB5FB72ADD5DBF004CB83E /* CRUDCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDCevap.swift; sourceTree = "<group>"; };
+		D1EB5FB92ADD6F60004CB83E /* YemeklerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemeklerCevap.swift; sourceTree = "<group>"; };
+		D1EB5FBB2ADE5C90004CB83E /* SepetimCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetimCevap.swift; sourceTree = "<group>"; };
+		D1EB5FBE2ADF373C004CB83E /* foodGoApp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = foodGoApp.entitlements; sourceTree = "<group>"; };
+		D1EB5FC02ADFCB94004CB83E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D1EB5FC52ADFCD75004CB83E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D1EB5FC92AE49F86004CB83E /* OdemeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdemeScreenViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +81,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1EB5FC22ADFCB9A004CB83E /* CoreLocation.framework in Frameworks */,
+				D1ADB9372AD7EAF400B85435 /* Alamofire in Frameworks */,
+				D1EB5FC72ADFCDB7004CB83E /* MapKit.framework in Frameworks */,
+				D1ADB9342AD7EAAA00B85435 /* Kingfisher in Frameworks */,
+				D1ADB9312AD7EA9400B85435 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D13968BF2AD3F6CF00491B36 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				D1ADB93B2AD7FC5600B85435 /* viewmodel */,
+				D1B47B182AD40C4000BF3490 /* tableView */,
+				D13968C12AD3F6DD00491B36 /* views */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		D13968C02AD3F6D600491B36 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				D1ADB9382AD7FBEF00B85435 /* repo */,
+				D13968C22AD3F6FA00491B36 /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		D13968C12AD3F6DD00491B36 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D1C82A5C2AD198180074714F /* Anasayfa.swift */,
+				D1C82A6F2AD1990E0074714F /* LoginScreen.swift */,
+				D1C82A7D2AD2ADAB0074714F /* DetayScreen.swift */,
+				D1ADB91C2AD6990700B85435 /* SepetScreen.swift */,
+				D1ADB9272AD7D71900B85435 /* ProfilScreen.swift */,
+				D1ADB9292AD7D72D00B85435 /* AdresScreen.swift */,
+				D1ADB92D2AD7E5F800B85435 /* OdemeScreen.swift */,
+				D1EB5FB52ADC7D73004CB83E /* TakipScreen.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		D13968C22AD3F6FA00491B36 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				D13968C32AD3F70600491B36 /* Yemekler.swift */,
+				D1EB5FB92ADD6F60004CB83E /* YemeklerCevap.swift */,
+				D1ADB9252AD6A74300B85435 /* Sepetim.swift */,
+				D1EB5FBB2ADE5C90004CB83E /* SepetimCevap.swift */,
+				D1EB5FB72ADD5DBF004CB83E /* CRUDCevap.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		D1ADB9382AD7FBEF00B85435 /* repo */ = {
+			isa = PBXGroup;
+			children = (
+				D1ADB9392AD7FC2D00B85435 /* YemekDaoRepository.swift */,
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		D1ADB93B2AD7FC5600B85435 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				D1ADB93C2AD7FC7600B85435 /* AnasayfaViewModel.swift */,
+				D1ADB93E2AD7FC8700B85435 /* DetayScreenViewModel.swift */,
+				D1ADB9402AD7FC9C00B85435 /* SepetScreenViewModel.swift */,
+				D1EB5FC92AE49F86004CB83E /* OdemeScreenViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		D1B47B182AD40C4000BF3490 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				D1ADB91A2AD40FD400B85435 /* YemekHucre.swift */,
+				D1ADB92B2AD7D7EB00B85435 /* SepetHucre.swift */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
 		D1C82A4C2AD198180074714F = {
 			isa = PBXGroup;
 			children = (
 				D1C82A572AD198180074714F /* foodGoApp */,
 				D1C82A562AD198180074714F /* Products */,
+				D1EB5FBF2ADFCB93004CB83E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +186,36 @@
 		D1C82A572AD198180074714F /* foodGoApp */ = {
 			isa = PBXGroup;
 			children = (
+				D1EB5FBE2ADF373C004CB83E /* foodGoApp.entitlements */,
 				D1C82A582AD198180074714F /* AppDelegate.swift */,
 				D1C82A5A2AD198180074714F /* SceneDelegate.swift */,
-				D1C82A5C2AD198180074714F /* ViewController.swift */,
+				D13968BF2AD3F6CF00491B36 /* ui */,
+				D13968C02AD3F6D600491B36 /* data */,
 				D1C82A5E2AD198180074714F /* Main.storyboard */,
 				D1C82A642AD1981A0074714F /* Assets.xcassets */,
 				D1C82A662AD1981A0074714F /* LaunchScreen.storyboard */,
 				D1C82A692AD1981A0074714F /* Info.plist */,
 				D1C82A612AD198180074714F /* foodGoApp.xcdatamodeld */,
+				D1C82A712AD199B50074714F /* Fonts */,
 			);
 			path = foodGoApp;
+			sourceTree = "<group>";
+		};
+		D1C82A712AD199B50074714F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D1C82A722AD199C70074714F /* DelaGothicOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D1EB5FBF2ADFCB93004CB83E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1EB5FC52ADFCD75004CB83E /* MapKit.framework */,
+				D1EB5FC02ADFCB94004CB83E /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +234,11 @@
 			dependencies = (
 			);
 			name = foodGoApp;
+			packageProductDependencies = (
+				D1ADB9302AD7EA9400B85435 /* RxSwift */,
+				D1ADB9332AD7EAAA00B85435 /* Kingfisher */,
+				D1ADB9362AD7EAF400B85435 /* Alamofire */,
+			);
 			productName = foodGoApp;
 			productReference = D1C82A552AD198180074714F /* foodGoApp.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +267,11 @@
 				Base,
 			);
 			mainGroup = D1C82A4C2AD198180074714F;
+			packageReferences = (
+				D1ADB92F2AD7EA9400B85435 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				D1ADB9322AD7EAAA00B85435 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				D1ADB9352AD7EAF400B85435 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = D1C82A562AD198180074714F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,6 +288,7 @@
 			files = (
 				D1C82A682AD1981A0074714F /* LaunchScreen.storyboard in Resources */,
 				D1C82A652AD1981A0074714F /* Assets.xcassets in Resources */,
+				D1C82A732AD199C70074714F /* DelaGothicOne-Regular.ttf in Resources */,
 				D1C82A602AD198180074714F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +300,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1C82A5D2AD198180074714F /* ViewController.swift in Sources */,
+				D1C82A5D2AD198180074714F /* Anasayfa.swift in Sources */,
+				D1ADB93F2AD7FC8700B85435 /* DetayScreenViewModel.swift in Sources */,
 				D1C82A632AD198180074714F /* foodGoApp.xcdatamodeld in Sources */,
+				D1EB5FB62ADC7D73004CB83E /* TakipScreen.swift in Sources */,
+				D1ADB93D2AD7FC7600B85435 /* AnasayfaViewModel.swift in Sources */,
+				D1EB5FBA2ADD6F60004CB83E /* YemeklerCevap.swift in Sources */,
 				D1C82A592AD198180074714F /* AppDelegate.swift in Sources */,
+				D1EB5FBC2ADE5C90004CB83E /* SepetimCevap.swift in Sources */,
+				D1EB5FCA2AE49F86004CB83E /* OdemeScreenViewModel.swift in Sources */,
 				D1C82A5B2AD198180074714F /* SceneDelegate.swift in Sources */,
+				D1ADB91D2AD6990700B85435 /* SepetScreen.swift in Sources */,
+				D1C82A702AD1990E0074714F /* LoginScreen.swift in Sources */,
+				D1ADB92E2AD7E5F800B85435 /* OdemeScreen.swift in Sources */,
+				D1ADB92C2AD7D7EB00B85435 /* SepetHucre.swift in Sources */,
+				D1EB5FB82ADD5DBF004CB83E /* CRUDCevap.swift in Sources */,
+				D1ADB9412AD7FC9C00B85435 /* SepetScreenViewModel.swift in Sources */,
+				D1ADB92A2AD7D72D00B85435 /* AdresScreen.swift in Sources */,
+				D1ADB9262AD6A74300B85435 /* Sepetim.swift in Sources */,
+				D1ADB91B2AD40FD400B85435 /* YemekHucre.swift in Sources */,
+				D1ADB93A2AD7FC2D00B85435 /* YemekDaoRepository.swift in Sources */,
+				D13968C42AD3F70600491B36 /* Yemekler.swift in Sources */,
+				D1ADB9282AD7D71900B85435 /* ProfilScreen.swift in Sources */,
+				D1C82A7E2AD2ADAB0074714F /* DetayScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,16 +467,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = foodGoApp/foodGoApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QZVGF95DGP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = foodGoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = foodGoo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,16 +500,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = foodGoApp/foodGoApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QZVGF95DGP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = foodGoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = foodGoo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +550,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1ADB92F2AD7EA9400B85435 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		D1ADB9322AD7EAAA00B85435 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		D1ADB9352AD7EAF400B85435 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1ADB9302AD7EA9400B85435 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1ADB92F2AD7EA9400B85435 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		D1ADB9332AD7EAAA00B85435 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1ADB9322AD7EAAA00B85435 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		D1ADB9362AD7EAF400B85435 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1ADB9352AD7EAF400B85435 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D1C82A612AD198180074714F /* foodGoApp.xcdatamodeld */ = {
